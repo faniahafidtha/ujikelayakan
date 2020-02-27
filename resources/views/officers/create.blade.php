@@ -96,7 +96,7 @@
                <select class="form-control" name="id_level" id="id_level">
                     <option></option>
                     @foreach ($levels as $level)
-                    <option value="{{$level->id}}">{{$level->id}}</option>
+                    <option value="{{$level->id}}">{{$level->id}} - {{$level->nama_level}} </option>
                     @endforeach
                 </select>
 
